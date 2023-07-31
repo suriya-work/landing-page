@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Vazirmatn:wght@200;700&display=swap');
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Vazirmatn', 'Roboto', sans-serif;
+  background: #f4e2dd;
+  /* opacity: 0.5; */
+}
+
+.singup {
+  border-radius: 100px;
+  background: #5D50C6;
+  padding: 6px 24px;
+}
+
+/* media */
+@media(max-width:912px) {
+  .nav-menu {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
