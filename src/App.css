@@ -15,7 +15,15 @@ body {
 .singup {
   border-radius: 100px;
   background: #5D50C6;
-  padding: 6px 24px;
+  padding: 6px 22px;
+}
+.world {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 4px;
+  border: 1px solid #EEE;
 }
 
 /* media */
@@ -23,5 +31,21 @@ body {
   .nav-menu {
     margin-left: 0 !important;
     margin-right: 0 !important;
+  }
+}
+
+@media(max-width:540px) {
+  .containerBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .world {
+    margin: auto;
+  }
+  .linkA {
+    margin: auto;
+
   }
 }

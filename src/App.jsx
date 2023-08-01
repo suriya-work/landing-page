@@ -4,11 +4,14 @@ import './App.css'
 import Header from './components/header/Header';
 // banner
 import Banner from './components/banner/Banner';
+// toolbar
+import Toolbars from './components/toolbar/Toolbars';
 const App = () => {
   return (
     <div>
       <Header />
       <Banner />
+      <Toolbars />
     </div>
   )
 }

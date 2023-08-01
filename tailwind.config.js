@@ -14,6 +14,7 @@ export default {
       'tahiti': '#3ab7bf',
       'silver': '#ecebff',
       'bermuda': '#78dcca',
+      'gray': 'rgba(25, 24, 37, 0.50)'
     },
     extend: {},
   },
