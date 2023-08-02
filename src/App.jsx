@@ -6,12 +6,15 @@ import Header from './components/header/Header';
 import Banner from './components/banner/Banner';
 // toolbar
 import Toolbars from './components/toolbar/Toolbars';
+// card
+import Card from './components/card/Card';
 const App = () => {
   return (
     <div>
       <Header />
       <Banner />
       <Toolbars />
+      <Card />
     </div>
   )
 }
