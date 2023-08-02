@@ -8,6 +8,8 @@ import Banner from './components/banner/Banner';
 import Toolbars from './components/toolbar/Toolbars';
 // card
 import Card from './components/card/Card';
+// travel
+import Travel from './components/travel/Travel';
 const App = () => {
   return (
     <div>
@@ -15,6 +17,7 @@ const App = () => {
       <Banner />
       <Toolbars />
       <Card />
+      <Travel />
     </div>
   )
 }

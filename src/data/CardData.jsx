@@ -2,35 +2,64 @@ const CardData = [
     {
         "id": 1,
         "image": "./images/p1.png",
-        "title": "Paradise Beach, Bantayan Island",
+        "title1": "Paradise Beach,",
+        "title2":" Bantayan Island",
+        "price": "$550.16",
+        "city": "Rome, Italy",
+        "num": "4.8",
+        "svg": "./images/star 1.svg",
     },
     {
         "id": 2,
         "image": "./images/p2.png",
-        "title": "Ocean with full of Colors",
+        "title1": "Ocean with full of",
+        "title2" : "Colors",
+        "price": "$20.16",
+        "city": "Maldives",
+        "number": "8.0",
+        "svg": "./images/star 1.svg",
+
     },
     {
         "id": 3,
         "image": "./images/p3.png",
-        "title": "Mountain View, Above the cloud",
+        "title1": "Mountain View,",
+        "title2" : " Above the cloud",
+        "price": "$500.99",
+        "city": "United Arab Emeries ",
+        "number": "3.5",
+        "svg": "./images/star 1.svg",
+
     },
     {
         "id": 4,
         "image": "./images/p1.png",
-        "title": "Paradise Beach, Bantayan Island",
-
+        "title1": "Paradise Beach,",
+        "title2":" Bantayan Island",
+        "price": "$150.26",
+        "city": "Rome, Italy",
+        "number": "4.6",
+        "svg": "./images/star 1.svg",
     },
     {
         "id": 5,
         "image": "./images/p2.png",
-        "title": "Ocean with full of Colors",
-
+        "title1": "Ocean with full of",
+        "title2" : "Colors",
+        "price": "$200.18",
+        "city": "Maldives",
+        "number": "5.0",
+        "svg": "./images/star 1.svg",
     },
     {
         "id": 6,
         "image": "./images/p3.png",
-        "title": "Mountain View, Above the cloud",
-
+        "title1": "Mountain View,",
+        "title2" : " Above the cloud",
+        "price": "$750.35",
+        "city": "United Arab Emeries ",
+        "number": "5.5",
+        "svg": "./images/star 1.svg",
     },
 ]
 
