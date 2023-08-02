@@ -10,6 +10,7 @@ const Travel = () => {
                 <h3 className='text-travel'>Travel Point</h3>
                 <h3 className='text-black font-bold text-[30px]'>We helping you find your dream location</h3>
                 <p className='text-gray text-sm pt-8'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
+                <p className='text-gray text-sm pt-8'>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC.</p>
             </div>
 
         </div>
