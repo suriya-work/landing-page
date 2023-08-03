@@ -11,9 +11,11 @@ const Card = () => {
 
   return (
     <div className='container mx-auto'>
-      <div className='pt-[25px] px-12'>
-        <h3 className='text-bubble-gum text-lg'>Top Destination</h3>
-        <h3 className='font-bold text-2xl'>Explore top destination</h3>
+      <div className='px-11 travel-font'>
+        <h3 className='text-travel'>Top Destination</h3>
+        <h3 className='font-bold text-3xl'>Explore top destination</h3>
+      </div>
+      <div>
       </div>
       <div className='px-10 pt-10'>
 
@@ -56,7 +58,7 @@ const Card = () => {
               return (
                 <SwiperSlide key={slide.id}>
                   <img src={slide.image} alt="img" />
-                  <div className=' shadow rounded-b-[25px] bg-white overflow-hidden p-3 max-w-[350px]'>
+                  <div className=' shadow-md rounded-b-[25px] bg-white overflow-hidden p-3 max-w-[350px]'>
                     <p className='text-black font-bold '>{slide.title1}
                       <span className='text-bubble-gum ps-10'>{slide.price}</span>
                     </p>
