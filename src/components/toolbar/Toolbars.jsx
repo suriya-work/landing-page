@@ -6,7 +6,7 @@ const Toolbars = () => {
             {
                 DataSvg.map((toolbar) => {
                     return (
-                        <div  key={toolbar.id}>
+                        <div className='flex justify-center text-center' key={toolbar.id}>
                             <img  src={toolbar.image} alt="img" />
                         </div>
                     )
