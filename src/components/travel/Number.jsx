@@ -8,19 +8,17 @@ const number = [
 const Number = () => {
     return (
         <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 lg-grid-cols-2 gap-7 pt-[2rem]'>
-            
-            {/* <div> */}
-                {
-                    number.map((numbers) => {
-                        return (
-                            <div key={numbers.id}  className='text-num'>
-                                <span className='text-orange font-bold '>{numbers.num}</span>
-                                <h3 className='text-black'>{numbers.title}</h3>
-                            </div>
-                        )
-                    })
-                }
-            {/* </div> */}
+
+            {
+                number.map((numbers) => {
+                    return (
+                        <div key={numbers.id} className='text-num'>
+                            <span className='text-orange font-bold '>{numbers.num}</span>
+                            <h3 className='text-black'>{numbers.title}</h3>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }

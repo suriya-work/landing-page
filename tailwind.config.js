@@ -16,6 +16,7 @@ export default {
       'bermuda': '#78dcca',
       'gray': 'rgba(25, 24, 37, 0.50)',
       'yellow' : '#FACD49',
+      'pink' : 'rgba(250, 205, 73, 0.08)',
   
     },
     extend: {},

@@ -14,6 +14,8 @@ import Card from './components/card/Card';
 import Travel from './components/travel/Travel';
 // services
 import Services from './components/services ofer/Services';
+// explor
+import Explor from './components/explor/Explor';
 const App = () => {
   return (
     <div>
@@ -24,6 +26,7 @@ const App = () => {
       <Card />
       <Travel />
       <Services />
+      <Explor />
     </div>
   )
 }
