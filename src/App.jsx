@@ -16,6 +16,8 @@ import Travel from './components/travel/Travel';
 import Services from './components/services ofer/Services';
 // explor
 import Explor from './components/explor/Explor';
+// footer
+import Footer from './components/footer/Footer';
 const App = () => {
   return (
     <div>
@@ -27,6 +29,7 @@ const App = () => {
       <Travel />
       <Services />
       <Explor />
+      <Footer />
     </div>
   )
 }

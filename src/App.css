@@ -132,7 +132,7 @@ body {
 
 .container-input input {
   padding: 12px;
-  width: 45%;
+  width: 50%;
   border-radius: 20px;
 }
 
@@ -208,7 +208,19 @@ body {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+.container-input input {
+  padding: 12px;
+  width: 100%;
+  border-radius: 20px;
+  
+}
+.container-input {
+  margin-right: 70px;
+}
 
+.container-input button {
+  margin: 10px;
+}
 
 }
 
