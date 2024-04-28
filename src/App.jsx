@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './App.css'
 // header 
 import Header from './components/header/Header';
@@ -20,7 +20,7 @@ import Explor from './components/explor/Explor';
 import Footer from './components/footer/Footer';
 const App = () => {
   return (
-    <div>
+    <div className=" min-h-screen grid grid-rows-[100px_1fr_auto]">
       <Header />
       <Banner />
       <Toolbars />

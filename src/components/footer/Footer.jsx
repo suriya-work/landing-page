@@ -1,4 +1,4 @@
-import React from 'react'
+
 import logo from "../../../public/images/logo.png"
 import FaceBook from '../../icons/FaceBook'
 import Twitter from '../../icons/Twitter'
